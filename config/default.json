@@ -1,0 +1,5 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://NerdY:V4I9I2H8@clusterautosfedu.ew3o9.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecret": "SuiscienceBoyZ"
+}

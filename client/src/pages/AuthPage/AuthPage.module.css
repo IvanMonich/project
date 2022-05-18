@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario:wght@400;600&family=Work+Sans:wght@700&display=swap');
+
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    min-height: 929px;
+    background-size: cover;
+    background-position: center center;
+
+    background: #060e13;
+
+    /* box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+
+.header {
+    position: absolute;
+    width: 894px;
+    height: 238px;
+    left: calc(50% - 424px);
+    top: 15px;
+    padding: 10px;
+
+    display: flex;
+}
+
+.logo {
+    position: static;
+    width: 200px;
+    height: 224px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0 14px 5px;
+
+    position: static;
+    width: 694px;
+    height: 238px;
+    left: 200px;
+    top: 0;
+
+    /*background: #D7DAEC;*/
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0 0;
+}
+
+.ledo {
+    position: static;
+    width: 689px;
+    height: 134px;
+    left: 5px;
+    top: 0;
+
+    font-family: Rosario, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #9AB957;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+    margin: 10px 0;
+}
+
+.description {
+    position: relative;
+    width: 689px;
+    height: 66px;
+    left: 65px;
+    top: -32px;
+
+    font-family: Rosario, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #B98A8A;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 10px 0;
+}
+
+.authField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    width: 510px;
+    height: 420px;
+    left: calc(50% - 255px);
+    top: calc(50% - 210px);
+}
+
+.authTittle{
+    position: relative;
+    height: 50px;
+}
+
+.authText{
+    position: relative;
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #1554F7;
+
+    cursor: default;
+}
+
+.authText img{
+    margin-left: 8px;
+}
+.authHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 226px;
+    height: 70px;
+    left: 142px;
+    top: 0;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0;
+
+    background: #B98A8A;
+}
+
+.tittle {
+    position: relative;
+    width: 490px;
+    height: 23px;
+    left: 15px;
+    top: 11px;
+
+
+    /* Header 2 */
+
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color:#FFFAFA;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 20px;
+}
+
+.wantReg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    position: static;
+    width: 247px;
+    height: 45px;
+    left: 131.5px;
+    top: 325px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    margin: 10px 0;
+}
+
+.wantRegButton {
+    position: static;
+    width: 227px;
+    height: 23px;
+    left: 10px;
+    top: 11px;
+
+    /* Header 2 */
+
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.02em;
+
+    color:#FFFAFA;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.wantRegButton:hover {
+    color: #1554F7;
+    transition: all 500ms;
+}
+
+.regTittle{
+    position: relative;
+    height: 50px;
+}
+
+.regText{
+    position: relative;
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #1554F7;
+}
+
+.regText img{
+    margin-left: 8px;
+}
+
+.regTextLogin {
+    position: relative;
+    width: 346px;
+    height: 50px;
+    left: 28px;
+    top: 10px;
+
+    /* Header 2 */
+
+    font-family: Work Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFAFA;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0 20px;
+}
+
+.goBack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*padding: 10px;*/
+
+    position: relative;
+    width: 37px;
+    height: 37px;
+    left: -1px;
+    top: 20px;
+
+    background: url("./img/GoBack.svg");
+
+    cursor: pointer;
+}
+
+.goBack:hover {
+    background: url("./img/GoBackHover.svg");
+    transition: all 800ms;
+}
+
+.mailImage {
+    position: absolute;
+    top: 115px;
+    left: 480px;
+}
+
+.mailImage1 {
+    position: absolute;
+    top: 145px;
+    left: 480px;
+}
+
+.authField input:focus {
+    background: #F0F1F6;
+    transition: all 800ms;
+}
+
+html {
+    height:100%;
+    overflow: hidden;
+    background-position: center center;
+}
+
+.cosmostars{
+    align-content: center;
+    left:50%;
+    width: 1px;
+    height: 1px;
+    /*width: calc(250px + (1500 - 250) * ((100vw - 1080px) / (1920 - 1080)));*/
+    position: absolute;
+    justify-content: flex-start;
+    top:-200px;
+}
+
+.regSelectDiv {
+    position: relative;
+    width: 100%;
+    height: 24px;
+
+    top: 25px;
+
+    margin-bottom: 10px;
+}
+
+.regSelect {
+    position: relative;
+    width: 250px;
+    height: 24px;
+
+    left: calc(50% - 125px);
+
+    border-radius: 5px;
+}
